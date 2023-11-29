@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url(photos/white-stylus-and-a-tablet-lay-on-a-dark-table.jpg);
+}
+
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: #343a40; /* Change to your desired background color */
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: black;
+}
+
+.hero-section h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+  color: white;
+  font-size: 45px;
+}
+
+.mission {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.mission.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.my-hero {
+  text-align: center;
+}
+
+.hero-section button {
+  margin-top: 60px;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url(photos/workingnight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 10%;
+    background-position: center;
+}
+
+.mission h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+    text-align: center;
+    text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+}
+
+.content-container {
+    display: flex;
+    max-width: 800px; 
+    margin: 20px auto; 
+    color: white;
+  }
+
+    .content-container img {
+    width: 40%; 
+    height: auto;
+    margin-right: 70px;
+  }
+
+    .content-container p {
+    text-align: left; 
+    margin: 0;
+  }
+
+  .btn-container {
+    margin-top: 10px; 
+    text-align: center;
+  }
+
+.projects h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+    text-align: center;
+    text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+  }
+
+  .project-section {
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+    url(photos/wooden-room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 2%;
+    background-position: center;
+  }
+
+  .projects h2 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+}
+  .projects {
+    margin-top: 40px;
+    text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+  }
+
+  .project-link {
+    text-decoration: none;
+  }
+
+.resume-section {
+  color: white;
+  text-align: center;
+  margin-top: 70px;
+  } 
+  .resume-section h1 {
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+  }
+
+.languages {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+}
+
+.coding-section {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+  url(photos/computer-cables.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  margin-top: 70px;
+}
+
+.code-title {
+  margin-top: 20px;
+}
+
+.code-text {
+  margin-top: 20px;
+}
+
+.image-container {
+  flex: 0 0 40%; 
+  margin-right: 20px;
+}
+
+.coding-section {
+  color: white;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+}
+
+.coding-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+}
+
+
+.coding-section h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.awards{
+  color:white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cert-title {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 70px;
+  text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+}
+
+.cert-list {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+.contact-section {
+  background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)),
+  url(photos/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+  background-position: center;
+  margin-top: 70px;
+}
+
+.contact h1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  text-shadow: 8px 8px 8px rgba(177, 176, 176, 0.349);
+}
+
+.contact h2 {
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color:white;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 30px;
+}
+
+#buttons {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
