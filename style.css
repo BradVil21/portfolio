@@ -6,6 +6,10 @@ body {
     url(photos/white-stylus-and-a-tablet-lay-on-a-dark-table.jpg);
 }
 
+#alert-message {
+    text-align: center;
+}
+
 .navbar {
   transition: background-color 0.3s ease-in-out;
   background-color: transparent;
